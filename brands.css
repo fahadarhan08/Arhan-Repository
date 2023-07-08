@@ -1,0 +1,248 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#rc{
+  font-family: 'Courier New', Courier, monospace;
+}
+/*navbar*/
+/*navbar*/
+.nav-item{
+  margin: 10px;
+}
+.nav-item a{
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: 1s;
+}
+.nav-item a:hover{
+  color: rgb(206, 139, 39);
+  font-weight: bolder;
+}
+.navbar-toggler-icon{
+  color: black;
+}
+
+/*navbar end*/
+
+/*cards*/
+.brand-con{
+  margin-top: 50px;
+ 
+}
+.brand-con h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 0 0 3px brown;
+  margin-bottom: 30px;
+}
+#cards{
+  margin-top: 50px;
+padding: 20px;
+}
+#cards p {
+  color: burlywood;
+}
+#cards p span {
+  color: black;
+  text-decoration:line-through;
+  font-size: 14px;
+}
+#cards .card-title{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: burlywood;
+}
+
+/*stickley*/
+.stickley-con h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 0 0 3px brown;
+  margin-bottom: 30px;
+}
+.stickley-con{
+  margin-top: 50px;
+}
+
+/*elly decor*/
+.elly-con{
+  margin-top: 50px;
+}
+.elly-con h1{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-shadow: 0 0 3px brown;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+footer{
+  width: 100%;
+  position: absolute;
+  background: burlywood;
+  color: white;
+  padding: 60px 0 10px;
+  font-size: 13px;
+  line-height: 18px;
+}
+.footer-row{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-col{
+  flex-basis: 25%;
+  padding: 10px;
+}
+.footer-col h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-col h1 span{
+  color: brown;
+  font-size: 29px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.footer-col h3{
+  width: fit-content;
+  margin-bottom: 40px;
+  position: relative;
+  font-size: 18px;
+  margin-left:20px;
+}
+.email-id{
+  width: fit-content;
+  border-bottom: 1px solid grey;
+  margin: 20px 0;
+}
+.footer-col ul li{
+  list-style: none;
+  margin-bottom: 12px;
+}
+.footer-col ul li a{
+  text-decoration: none;
+  color:white;
+  transition: 1s;
+}
+.footer-col ul li a:hover{
+  color: brown;
+  text-decoration: underline;
+}
+form{
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+form button{
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+form button .fa-solid{
+font-size: 16px;
+color: white;
+}
+.social-links .fa-brands{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  color: black;
+  background: white;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.brand-con #cards .card{
+  transition: 1s;
+}
+.brand-con #cards .card:hover{
+margin-top: -20px;
+}
+
+.elly-con .card{
+  transition: 1s;
+}
+.elly-con .card:hover{
+margin-top: -20px;
+}
+
+.stickley-con .card{
+  transition: 1s;
+}
+.stickley-con .card:hover{
+margin-top: -20px;
+}
+
+@media screen and(max-width:700px) {
+  footer{
+    bottom: unset;
+  }
+  .footer-col{
+flex-basis: 100%;
+  }
+}
+
+
+/*policy page*/
+#policy{
+  width: 800px;
+}
+.p1{
+  color: brown;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.p2{
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*aboutus page*/
+#aboutus{
+  width: 800px;
+}
+.a1{
+  color: brown;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.a2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*terms and con page*/
+#terms{
+  width: 800px;
+}
+.t1{
+  color: brown;
+  font-size: 60px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 50px;
+}
+.t2{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
